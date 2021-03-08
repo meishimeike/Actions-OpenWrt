@@ -12,7 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/community.cypress.com\/gfawx74859\/attachments\/gfawx74859\/resourcelibrary\/1016\/1/raw.githubusercontent.com\/meishimeike\/Actions-OpenWrt\/main\/Drivers/g' package/firmware/cypress-firmware/Makefile
+sed -i 's/community.cypress.com\/gfawx74859\/attachments\/gfawx74859\/resourcelibrary\/1016\/1/github.com\/meishimeike\/Actions-OpenWrt\/raw\/main\/Drivers/g' package/firmware/cypress-firmware/Makefile
 sed -i 's/v5.4.18-2020_0402/v5.4.18-2020_0925/g' package/firmware/cypress-firmware/Makefile
 #sed -i 's/19375-1-53475/21490-1-58574/g' package/firmware/cypress-firmware/Makefile
 sed -i 's/firmware\/brcmfmac/firmware\/cyfmac/g' package/firmware/cypress-firmware/Makefile
