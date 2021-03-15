@@ -24,7 +24,7 @@ pushd package/community
 
 # Add ChinaDNS-NG
 git clone https://github.com/pexcn/openwrt-chinadns-ng.git
-git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git
+#git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git
 
 # Add smartdns
 svn co https://github.com/pymumu/smartdns/trunk/package/openwrt ../smartdns
