@@ -31,3 +31,6 @@ git clone https://github.com/KFERMercer/luci-app-dockerman package/luci-app-dock
 
 # Add luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome
+
+# Add luci-app-openclash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
